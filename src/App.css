@@ -1,0 +1,28 @@
+
+
+/* CSS cho màn hình nhỏ hơn hoặc bằng 760px */
+@media (max-width: 760px) {
+  .App-logo {
+    /* Ví dụ điều chỉnh kích thước logo */
+   width: 10%;
+    height: 10%;
+  
+    /* Ví dụ thay đổi tốc độ animation */
+    animation: App-logo-spin infinite 10s linear;
+   }
+}
+
+/* CSS cho màn hình lớn hơn 760px */
+@media (min-width: 761px) {
+  .App {
+    display: none;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
